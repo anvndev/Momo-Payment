@@ -69,7 +69,9 @@ https://dinhnt.com/read/chia-se-local-website-localhost-ra-ben-ngoai-670
 
 
 Tham khảo thêm tại: https://developers.momo.vn/#/docs/aio/?id=ph%c6%b0%c6%a1ng-th%e1%bb%a9c-thanh-to%c3%a1n 
+
 --------------------
+
 ## returnUrl và notifyUrl:
 - Là 2 url của Server mà MoMo sẽ gửi HTTP Response chứa kết quả thông tin thanh toán.
 - Với returnUrl MoMo sẽ gửi qua method GET, redirect từ MoMo về returnUrl sau khi user thực hiện thanh toán xong.
