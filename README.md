@@ -68,4 +68,11 @@ https://dinhnt.com/read/chia-se-local-website-localhost-ra-ben-ngoai-670
 
 
 Tham khảo thêm tại: https://developers.momo.vn/#/docs/aio/?id=ph%c6%b0%c6%a1ng-th%e1%bb%a9c-thanh-to%c3%a1n 
-
+--------------------
+## returnUrl và notifyUrl:
+- Là 2 url của Server mà MoMo sẽ gửi HTTP Response chứa kết quả thông tin thanh toán.
+- Với returnUrl MoMo sẽ gửi qua method GET, redirect từ MoMo về returnUrl sau khi user thực hiện thanh toán xong.
+- Với notifyUrl MoMo sẽ gửi qua method POST, MoMo thực hiện IPN để gửi data về notifyUrl sau khi user thực hiện thanh toán xong.
+- Với returnUrl và notifyUrl thực hiện kiểm tra data nhận về từ MoMo có khớp với data gửi lên MoMo hay không.
+- Tránh trường hợp user tự gõ url để update order mà không thông qua thanh toán MoMo.
+- Ta cần sử dụng cả returnUrl và notifyUrl để tránh trường hợp MoMo không redirect về returnUrl (do timeout, user tắt trình duyệt) thì server vẫn nhận được data thông qua notifyUrl.
