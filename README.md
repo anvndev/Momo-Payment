@@ -79,3 +79,11 @@ Tham khảo thêm tại: https://developers.momo.vn/#/docs/aio/?id=ph%c6%b0%c6%a
 - Với returnUrl và notifyUrl thực hiện kiểm tra data nhận về từ MoMo có khớp với data gửi lên MoMo hay không.
 - Tránh trường hợp user tự gõ url để update order mà không thông qua thanh toán MoMo.
 - Ta cần sử dụng cả returnUrl và notifyUrl để tránh trường hợp MoMo không redirect về returnUrl (do timeout, user tắt trình duyệt) thì server vẫn nhận được data thông qua notifyUrl.
+
+---------------------
+## Data mà MoMo trả về:
+Các data cần gửi lên MoMo để thực hiện thanh toán thông qua cổng thanh toán AIO bao gồm.
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/anvndev/Momo-Payment/master/Images/image8.png">
+</p>
