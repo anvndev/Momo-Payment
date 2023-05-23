@@ -39,7 +39,7 @@ Sau khi đăng ký thành công, các bạn truy cập vào link https://busines
 	<img src="https://raw.githubusercontent.com/anvndev/Momo-Payment/master/Images/image4.png">
 </p>
 
-Tham khảo code tại đây: https://github.com/dinhtnguyenn/MomoPayment/blob/main/MomoPayment/Others/MoMoSecurity.cs 
+Tham khảo code tại đây: https://github.com/anvndev/Momo-Payment/blob/master/MomoPayment/Others/MoMoSecurity.cs
 
 - Tạo class PaymentRequest để tạo request
 
