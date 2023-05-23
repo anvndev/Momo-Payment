@@ -67,13 +67,22 @@ Tham khảo code tại: https://github.com/anvndev/Momo-Payment/blob/master/Momo
 ---
 Giả sử bạn đang phát triển một website nào đó ở máy tính cá nhân và muốn chia sẻ cho ai đó bên ngoài trải nghiệm, sử dụng thử hoặc là muốn test nó ở một môi trường, thiết bị nào khác như trên thiết bị di động chẳng hạn thì làm sao chúng ta sẽ truy cập vào trang web đó đây?
 
-Sau đây mình sẽ hướng dẫn các bạn tạo ra một Localtunnel bằng cách sử dụng một phần mềm có tên là Ngrok để có thể chia sẻ localhost ra bên ngoài.
-
+## Sau đây mình sẽ hướng dẫn các bạn tạo ra một Localtunnel bằng cách sử dụng một phần mềm có tên là Ngrok để có thể chia sẻ localhost ra bên ngoài.
+<li>
 Bước 1: Tải ngrok tại: https://ngrok.com/
+	</li>	
+	<li>
 Bước 2: Đăng ký và lấy token: https://dashboard.ngrok.com/auth
+	</li>
+	<li>
 Bước 3: Mở ngrok tải ở bước 1 và set token: ngrok authtoken YOUR_AUTHTOKEN
+	</li>
+	<li>
 Bước 4: Tạo tunnel để public localhost: ngrok http -host-header=localhost https://localhost:44313
+	</li>
+	<li>
 Bước 5: Bắt đầu sử dụng.
+	</li>
 Quá dễ phải không nè.
 
 Ngoài Ngrok ra thì chúng ta sẽ còn 1 số công cụ phổ biến khác để hỗ trợ tạo localtunnel này là [Serveo](https://serveo.net/) hoặc [localtunnel](https://localtunnel.github.io/www/). Đối với Serveo thì bạn không cần phải tải hay đăng ký tài khoản gì luôn
