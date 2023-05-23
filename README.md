@@ -64,7 +64,7 @@ Tham khảo code tại: https://github.com/anvndev/Momo-Payment/blob/master/Momo
 
 
 - Sử dụng Ngrok để public localhost
-```html
+---
 Giả sử bạn đang phát triển một website nào đó ở máy tính cá nhân và muốn chia sẻ cho ai đó bên ngoài trải nghiệm, sử dụng thử hoặc là muốn test nó ở một môi trường, thiết bị nào khác như trên thiết bị di động chẳng hạn thì làm sao chúng ta sẽ truy cập vào trang web đó đây?
 
 Sau đây mình sẽ hướng dẫn các bạn tạo ra một Localtunnel bằng cách sử dụng một phần mềm có tên là Ngrok để có thể chia sẻ localhost ra bên ngoài.
@@ -77,7 +77,7 @@ Bước 5: Bắt đầu sử dụng.
 Quá dễ phải không nè.
 
 Ngoài Ngrok ra thì chúng ta sẽ còn 1 số công cụ phổ biến khác để hỗ trợ tạo localtunnel này là [Serveo](https://serveo.net/) hoặc [localtunnel](https://localtunnel.github.io/www/). Đối với Serveo thì bạn không cần phải tải hay đăng ký tài khoản gì luôn
-```
+
 
 Tham khảo thêm tại: https://developers.momo.vn/#/docs/aio/?id=ph%c6%b0%c6%a1ng-th%e1%bb%a9c-thanh-to%c3%a1n 
 
